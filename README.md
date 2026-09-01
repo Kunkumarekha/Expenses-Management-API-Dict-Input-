@@ -356,7 +356,6 @@ You can add a short demo video showing:
 6. Updating an expense amount
 7. Deleting an expense
 
-**Demo Video:** [Add your video link here]
 
 ## 👩‍💻 Author
 
