@@ -283,7 +283,7 @@ From Swagger UI, you can test:
 
 without using any additional software.
 
----
+
 
 # 🧠 Concepts Practiced
 
@@ -304,8 +304,6 @@ Through this project, I practiced:
 * JSON responses
 * API testing using Swagger UI
 
----
-
 # 🔄 CRUD Operations
 
 | Operation | HTTP Method | Description             |
@@ -315,7 +313,6 @@ Through this project, I practiced:
 | Update    | PUT         | Update expense amount   |
 | Delete    | DELETE      | Remove an expense       |
 
----
 
 # 🎯 Learning Outcomes
 
@@ -346,31 +343,6 @@ Planned improvements for the project include:
 * Add expense analytics
 * Create a frontend interface
 
----
-
-# 📸 Screenshots
-
-Add screenshots of your project here.
-
-### Swagger UI
-
-```text
-screenshots/swagger-ui.png
-```
-
-### Get All Expenses
-
-```text
-screenshots/get-expenses.png
-```
-
-### Add Expense
-
-```text
-screenshots/add-expense.png
-```
-
----
 
 # 🎥 Project Demo
 
@@ -386,14 +358,11 @@ You can add a short demo video showing:
 
 **Demo Video:** [Add your video link here]
 
----
-
 ## 👩‍💻 Author
 
 **Kunkuma Rekha**
 
 Aspiring Python & Backend Developer
 
----
 
 ⭐ If you found this project interesting, feel free to star the repository!
