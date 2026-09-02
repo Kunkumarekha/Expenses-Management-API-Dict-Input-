@@ -22,27 +22,26 @@ def search_expense(name):
     return None
 
 
-def delete_expense(name):
+def delete_expense(title):
 
     for expense in expenses:
 
-        if expense["title"].lower() == name.lower():
+        if expense["title"].lower() == title.lower():
 
             expenses.remove(expense)
-            print("Expense deleted successfully!")
 
-            return
+            return True
 
-    print("Expense not found!")
+    return False
 
 
-def update_price(name, new_price):
+def update_expense_amount(title, new_amount):
 
-    expense = search_expense(name)
+    expense = search_expense(title)
 
     if expense:
-        expense["amount"] = new_price
-        print("Price updated successfully!")
+        expense["amount"] = new_amount
+        print("Amount updated successfully!")
 
     else:
 
