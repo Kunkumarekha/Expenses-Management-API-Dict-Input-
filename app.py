@@ -59,7 +59,7 @@ def prompt_update_amount():
     title = input("Enter expense title: ")
     new_amount = float(input("Enter new amount: "))
 
-    database.update_amount(title, new_amount)
+    database.update_expense_amount(title, new_amount)
 
 def menu():
     user_input = input(USER_CHOICE)
