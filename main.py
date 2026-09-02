@@ -49,14 +49,12 @@ def add_expense(
         "message": "Expense added successfully!"
     }
 
-
 @app.delete("/expenses/{title}")
 def delete_expense(title: str):
 
     result = database.delete_expense(title)
 
     if result:
-
         return {
             "message": "Expense deleted successfully!"
         }
@@ -65,14 +63,13 @@ def delete_expense(title: str):
         "message": "Expense not found!"
     }
 
-
 @app.put("/expenses/{title}/amount")
-def update_amount(
+def update_expense_amount(
     title: str,
     new_amount: float
 ):
 
-    result = database.update_amount(
+    result = database.update_expense_amount(
         title,
         new_amount
     )
