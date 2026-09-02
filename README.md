@@ -207,48 +207,6 @@ p - Update expense amount
 q - Quit
 
 
-# ⚙️ Installation and Setup
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-## 2️⃣ Navigate to the Project Folder
-
-```bash
-cd expense-management-system
-```
-
-## 3️⃣ Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-## 4️⃣ Activate the Virtual Environment
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Mac/Linux
-
-```bash
-source venv/bin/activate
-```
-
-## 5️⃣ Install Dependencies
-
-```bash
-pip install fastapi uvicorn
-```
-
-
-
 # ▶️ Run the FastAPI Application
 
 Run the following command:
@@ -345,6 +303,7 @@ Planned improvements for the project include:
 
 
 # 🎥 Project Demo
+[I can add this link 02-09-26]
 
 You can add a short demo video showing:
 
